@@ -1,0 +1,65 @@
+﻿<div class="con">
+    <div class="m-at pa-5">
+        <div class="@className">
+            <MudContainer MaxWidth="MaxWidth.ExtraSmall">
+                <MudGrid>
+                    <MudItem xs="12">
+                        <div class="d-flex justify-center">
+                            <img src="img/bl360.png" style="width:100%" />
+                        </div>
+                    </MudItem>
+                    <MudItem xs="12">
+                        <div class="d-flex justify-center error">
+                        </div>
+                    </MudItem>
+
+                    <MudItem xs="12">
+                        <div class="d-flex justify-center">
+                            <MudText Typo="Typo.h4">Sign In</MudText>
+                        </div>
+                    </MudItem>
+                    <MudItem xs="12">
+                        <div class="d-flex justify-center">
+                            <MudText>@Message</MudText>
+                        </div>
+                    </MudItem>
+
+
+
+                    <MudItem xs="12">
+                        <MudTextField T="string" Label="User Name" Variant="Variant.Outlined"
+                                      @bind-Value="_tokenModel.UserName" For="@(() => _tokenModel.UserName)" />
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudTextField Label="Password" Variant="Variant.Outlined"
+                                      @bind-Value="_tokenModel.Password" For="@(() => _tokenModel.Password)"
+                                      InputType="@_passwordInput" Adornment="Adornment.End" AdornmentIcon="@_passwordInputIcon" OnAdornmentClick="TogglePasswordVisibility" />
+                    </MudItem>
+                    @*   <MudItem xs="12" Class="d-flex justify-space-between align-center">
+                    <MudCheckBox T="bool" Label="@_localizer["Remember me?"]" Color="Color.Primary" Class="ml-n1"></MudCheckBox> <MudLink Href="/account/forgot-password">@_localizer["Forgot password?"]</MudLink>
+                    </MudItem>*@
+                    <MudItem xs="12" Class="d-flex justify-center">
+                        @*ButtonType="ButtonType.Submit"*@
+                        <MudButton
+                                   Variant="Variant.Filled"
+                                   Color="Color.Primary"
+                                   Size="Size.Large"
+                                   Style="width: 100%;"
+                                   OnClick="SubmitAsync">Sign In</MudButton>
+                    </MudItem>
+
+                </MudGrid>
+            </MudContainer>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<style>
+    #app {
+    }
+</style>
