@@ -57,8 +57,4 @@
 		<PackageReference Include="MudBlazor" Version="6.1.7" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\MAUISupport\MAUISupport.csproj" />
-	</ItemGroup>
-
 </Project>
