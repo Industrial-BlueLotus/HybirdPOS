@@ -1,19 +1,6 @@
-﻿using bluelotus360.Com.MauiSupports.ServiceDefinition.Login;
-//using bluelotus360.com.services.ServiceDefinition.Login;
-using bluelotus360.Com.MauiSupports.ViewModels;
-//using bluelotus360.com.services.ViewModels;
-using Microsoft.AspNetCore.Components;
-using bluelotus360.Com.MauiSupports.ServiceDefinition.Login;
-//using bluelotus360.com.services.ServiceDefinition.Login;
-using Microsoft.AspNetCore.Components.Authorization;
+﻿using Microsoft.AspNetCore.Components;
 using MudBlazor;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
+using MAUISupport.ViewModels;
 
 
 namespace HybridPOS.Components.Login
@@ -41,6 +28,7 @@ namespace HybridPOS.Components.Login
             {
 
                 _snackbar.Add("Username or Password Empty!");
+
             }
             else
             {

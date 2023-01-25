@@ -4,7 +4,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HybridPOS", "HybridPOS\HybridPOS.csproj", "{CC5E9401-D117-4693-8ADF-278AAFCE1A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUISupports", "MAUISupports\MAUISupports.csproj", "{94472314-FF30-4AD2-AC96-75CCB6A687C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUISupport", "MAUISupport\MAUISupport.csproj", "{99566B5C-DC97-4109-8738-4FB5ED358E05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,18 +18,16 @@ Global
 		{CC5E9401-D117-4693-8ADF-278AAFCE1A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC5E9401-D117-4693-8ADF-278AAFCE1A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC5E9401-D117-4693-8ADF-278AAFCE1A2C}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94472314-FF30-4AD2-AC96-75CCB6A687C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{99566B5C-DC97-4109-8738-4FB5ED358E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99566B5C-DC97-4109-8738-4FB5ED358E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99566B5C-DC97-4109-8738-4FB5ED358E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99566B5C-DC97-4109-8738-4FB5ED358E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 		SolutionGuid = {C50B847A-D22A-4B20-B15D-E32279F2A9DA}
+		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
 EndGlobal
